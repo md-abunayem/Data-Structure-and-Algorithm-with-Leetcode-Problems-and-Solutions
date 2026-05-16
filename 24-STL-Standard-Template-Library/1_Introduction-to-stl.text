@@ -1,0 +1,58 @@
+STL in C++
+
+STL (Standard Template Library) is a powerful library in C++ that provides ready-made classes and functions to handle common data structures and algorithms.
+
+It is part of the C++ Standard Library and works using templates, so it can handle different data types (int, float, string, etc.).
+
+📦 Main Components of STL:
+STL has 4 main components:
+    1. Containers
+    2. Algorithms
+    3. Iterators
+    4. Functors (Function Objects)
+
+🔹 Main Components of STL
+1️⃣ Containers (Store Data)
+
+A) Sequence Containers
+    1. vector → Dynamic array
+    2. list → Doubly linked list
+    3. deque → Double-ended queue
+    4. array → Fixed size array
+
+B) Associative Containers (Sorted)
+    1. set → Unique elements
+    2. map → Key-value pairs
+    3. multiset, multimap
+
+C) Unordered Containers (Hash-based)
+    1. unordered_set
+    2. unordered_map
+
+D) Container Adaptors
+    1. stack
+    2. queue
+    3. priority_queue
+
+2️⃣ Algorithms (#include <algorithm>):
+Common functions:
+    1. sort()
+    2. reverse()
+    3. find()
+    4. count()
+    5. binary_search()
+    6. max_element()
+    7. min_element()
+
+3️⃣ Iterators:
+Used to traverse containers:
+    1. begin()
+    2. end()
+    3. rbegin()
+    4. rend()
+
+4️⃣ Advantages:
+✔ Saves coding time
+✔ Optimized & fast
+✔ Reusable
+✔ Template-based (works for any data type)
